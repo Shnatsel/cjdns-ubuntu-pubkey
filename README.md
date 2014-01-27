@@ -4,7 +4,7 @@ Public key for cjdns Ubuntu repository
 To add the Ubuntu repository to your system, open a terminal, enter a root shell
 by running ```sudo -s``` and execute the following commands:
 ```
-source /etc/upstream-release/lsb-release || source /etc/lsb-release
+source /etc/upstream-release/lsb-release 2>/dev/null || source /etc/lsb-release
 echo "deb http://ubuntu.repo.cjdns.ca/ ${DISTRIB_CODENAME} main
 deb http://h.ubuntu.repo.cjdns.ca/ ${DISTRIB_CODENAME} main
 " > "/etc/apt/sources.list.d/shnatsel-cjdns-${DISTRIB_CODENAME}.list"
