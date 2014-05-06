@@ -1,7 +1,9 @@
-Public key for cjdns Ubuntu repository
+How to install cjdns from my repository
 ===================
 
-To add the Ubuntu repository to your system, open a terminal, enter a root shell
+I maintain a cjdns repository for Ubuntu and its derivatives (elementary OS, Mint, etc). It is updated every day with the latest snapshot of [cjdns git master](https://github.com/cjdelisle/cjdns). The server is kindly provided by [elementary OS](http://elementaryos.org/) Web Team.
+
+**To add the repository to your system,** open a terminal, enter a root shell
 by running ```sudo -s``` and execute the following commands:
 ```
 source /etc/upstream-release/lsb-release 2>/dev/null || source /etc/lsb-release
@@ -9,8 +11,9 @@ echo "deb http://ubuntu.repo.cjdns.ca/ ${DISTRIB_CODENAME} main
 deb http://h.ubuntu.repo.cjdns.ca/ ${DISTRIB_CODENAME} main
 " > "/etc/apt/sources.list.d/shnatsel-cjdns-${DISTRIB_CODENAME}.list"
 ```
+If the above complains about not finding "http://h.ubuntu.repo.cjdns.ca/", that's normal, carry on!
 
-Add the key, either by cloning this repository via ssh (more secure), or by running:
+Then add the signing key, either by cloning this repository via ssh (more secure), or by running:
 ```
 wget -O - https://raw.github.com/Shnatsel/cjdns-ubuntu-pubkey/master/buildbot-pubkey.gpg | apt-key add -
 ```
