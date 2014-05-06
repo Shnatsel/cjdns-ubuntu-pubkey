@@ -1,7 +1,7 @@
-How to install cjdns from my repository
+Using cjdns repository for Ubuntu
 ===================
 
-I maintain a cjdns repository for Ubuntu and its derivatives (elementary OS, Mint, etc). It is updated every day with the latest snapshot of [cjdns git master](https://github.com/cjdelisle/cjdns). The server is kindly provided by [elementary OS](http://elementaryos.org/) Web Team.
+I maintain a cjdns repository for Ubuntu and its derivatives (Mint, elementary OS, etc). It is updated every day with the latest snapshot of [cjdns git master](https://github.com/cjdelisle/cjdns). The server is kindly provided by [elementary OS](http://elementaryos.org/) Web Team.
 
 **To add the repository to your system,** open a terminal, enter a root shell
 by running ```sudo -s``` and execute the following commands:
@@ -26,4 +26,5 @@ apt-get install cjdns
 
 To connect to Hyperboria you'll have to find a friend who's already connected
 and fill in their info in /etc/cjdroute.conf, then run ```sudo restart cjdns```
+
 See https://github.com/cjdelisle/cjdns/#2-find-a-friend for more info.
