@@ -1,7 +1,7 @@
 Using cjdns repository for Ubuntu
 ===================
 
-I maintain a cjdns repository for Ubuntu and its derivatives (Mint, elementary OS, etc). It features autostart on boot and auto-respawn on crashes. The code is updated every day with the latest snapshot of [cjdns git master](https://github.com/cjdelisle/cjdns). The server is kindly provided by [elementary OS](http://elementaryos.org/) Web Team.
+I maintain a cjdns repository for Ubuntu and its derivatives (Mint, elementary OS, etc). It features autostart on boot and auto-respawn on crashes. The code is updated every day with the latest snapshot of [cjdns git master](https://github.com/cjdelisle/cjdns). The server is kindly donated by [Stack Data Network](http://stackdata.net/).
 
 **To add the repository to your system,** open a terminal, enter a root shell
 by running ```sudo -s``` and execute the following commands:
