@@ -27,3 +27,5 @@ apt-get install cjdns
 To connect to Hyperboria you'll have to find a friend who's already connected
 and fill in their info in /etc/cjdroute.conf, then run ```sudo restart cjdns```
 See https://github.com/cjdelisle/cjdns/#2-find-a-friend for more info.
+
+The packaging used for the builds is pulled from cjdns git and used as-is, except for setting the proper version in changelog. See [the packaging folder in cjdns git](https://github.com/cjdelisle/cjdns/tree/master/debian) for more details on these packages.
